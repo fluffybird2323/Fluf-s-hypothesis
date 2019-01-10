@@ -1,0 +1,4 @@
+for i=2:length(test)
+ a=processEmail(char(test(i,1)));
+
+x=[x,emailFeatures(a)];
